@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         text1=findViewById(R.id.txtone);
         text2=findViewById(R.id.txttwo);
+        text1.animate().translationX(0).setDuration(2000);
+
         text1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
